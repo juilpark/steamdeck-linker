@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Update GameLinks
+Exec=curl https:/raw.githubusercontent.com/juilpark/steamdeck-linker/main/linker.sh '|' bash -s --
+Icon=preferences-system-network-server-iscsi
+Terminal=true
+Type=Application
+StartupNotify=false
